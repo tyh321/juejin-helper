@@ -24,8 +24,8 @@ jobs:
   CheckIn:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
       - name: Run Project
         run: |
           cd workflows
